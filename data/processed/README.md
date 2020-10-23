@@ -1,0 +1,1 @@
+The data in here will be all of the data that has had all of the unimportant or empty cells removed from the dataset.
