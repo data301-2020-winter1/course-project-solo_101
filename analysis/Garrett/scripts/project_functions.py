@@ -21,4 +21,5 @@ def Procces(path):
               'US','VE','ZA','ZR'],['Afghanistan','Antarctica','Argentina','Austria','Bolivia','Bhutan','Canada','Switzerland','Chile','China','Colombia','Germany','Ecuador','Spain',
               'France','Greenland','South georgia','Heard Island','Indonesia','India','Iceland','Italy','Kenya','Mexico','Norway','Nepal','New Zeland','Peru','Pakistan','Sweden','USSR',
               'French territ.','Tanzania','Uganda','United States','Venezuala', 'South Africa','Zaire'])
+
     return dat

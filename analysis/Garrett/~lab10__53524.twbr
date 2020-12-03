@@ -1,0 +1,1600 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.1110.1623                               -->
+<workbook source-build='2020.3.3 (20203.20.1110.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <Heatmap />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='processed' inline='true' name='federated.12wqzdt1x9aeth106jr1g1ig3m2o' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='processed' name='textscan.1feomm01akzh1p12bazf70dyx3wj'>
+            <connection class='textscan' directory='C:/Users/Garrett/Documents/GitHub/course-project-solo_101/data/processed' filename='processed.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1feomm01akzh1p12bazf70dyx3wj' name='processed.csv' table='[processed#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='real' name='tongue_activity' ordinal='1' />
+            <column datatype='string' name='Glacier ID' ordinal='2' />
+            <column datatype='string' name='Country' ordinal='3' />
+            <column datatype='integer' name='continent_code' ordinal='4' />
+            <column datatype='real' name='lat' ordinal='5' />
+            <column datatype='real' name='lon' ordinal='6' />
+            <column datatype='string' name='orientation_acc' ordinal='7' />
+            <column datatype='string' name='orientation_abl' ordinal='8' />
+            <column datatype='real' name='source_nourish' ordinal='9' />
+            <column datatype='real' name='mean_elev' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1feomm01akzh1p12bazf70dyx3wj' name='processed.csv' table='[processed#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='real' name='tongue_activity' ordinal='1' />
+            <column datatype='string' name='Glacier ID' ordinal='2' />
+            <column datatype='string' name='Country' ordinal='3' />
+            <column datatype='integer' name='continent_code' ordinal='4' />
+            <column datatype='real' name='lat' ordinal='5' />
+            <column datatype='real' name='lon' ordinal='6' />
+            <column datatype='string' name='orientation_acc' ordinal='7' />
+            <column datatype='string' name='orientation_abl' ordinal='8' />
+            <column datatype='real' name='source_nourish' ordinal='9' />
+            <column datatype='real' name='mean_elev' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_D2E6C197E27843339179F904F725AA5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>tongue_activity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[tongue_activity]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>tongue_activity</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_D2E6C197E27843339179F904F725AA5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Glacier ID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Glacier ID]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>Glacier ID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_D2E6C197E27843339179F904F725AA5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_D2E6C197E27843339179F904F725AA5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>continent_code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[continent_code]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>continent_code</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_D2E6C197E27843339179F904F725AA5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lat]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>lat</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_D2E6C197E27843339179F904F725AA5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lon</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lon]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>lon</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_D2E6C197E27843339179F904F725AA5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>orientation_acc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[orientation_acc]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>orientation_acc</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_D2E6C197E27843339179F904F725AA5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>orientation_abl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[orientation_abl]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>orientation_abl</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_D2E6C197E27843339179F904F725AA5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source_nourish</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[source_nourish]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>source_nourish</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_D2E6C197E27843339179F904F725AA5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mean_elev</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[mean_elev]</local-name>
+            <parent-name>[processed.csv]</parent-name>
+            <remote-alias>mean_elev</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[processed.csv_D2E6C197E27843339179F904F725AA5E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]&quot;' value='Average Elevation' />
+          <alias key='&quot;[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]&quot;' value='Maximum Elevation' />
+        </aliases>
+      </column>
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+        <semantic-values semantic-role='[Country].[Name]'>
+          <semantic-value key='&quot;French territ.&quot;' value='&quot;French Guiana&quot;' />
+          <semantic-value key='&quot;Heard Island&quot;' value='&quot;Heard Island and McDonald Islands&quot;' />
+          <semantic-value key='&quot;New Zeland&quot;' value='&quot;New Zealand&quot;' />
+          <semantic-value key='&quot;USSR&quot;' value='&quot;Russia&quot;' />
+        </semantic-values>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='processed.csv' datatype='table' name='[__tableau_internal_object_id__].[processed.csv_D2E6C197E27843339179F904F725AA5E]' role='measure' type='quantitative' />
+      <column caption='Continent Code' datatype='integer' name='[continent_code]' role='dimension' type='ordinal' />
+      <column aggregation='Avg' caption='Lat' datatype='real' name='[lat]' role='dimension' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Lon' datatype='real' name='[lon]' role='dimension' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Mean Elev' datatype='real' name='[mean_elev]' role='measure' type='quantitative' />
+      <column caption='Orientation Abl' datatype='string' name='[orientation_abl]' role='dimension' type='nominal' />
+      <column caption='Orientation Acc' datatype='string' name='[orientation_acc]' role='dimension' type='nominal' />
+      <column caption='Source Nourish' datatype='real' name='[source_nourish]' role='measure' type='quantitative' />
+      <column caption='Tongue Activity' datatype='real' name='[tongue_activity]' role='measure' type='quantitative' />
+      <column-instance column='[mean_elev]' derivation='Avg' name='[avg:mean_elev:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[mean_elev]' derivation='Max' name='[max:mean_elev:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[mean_elev]' derivation='Min' name='[min:mean_elev:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[lat]' derivation='None' name='[none:lat:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[lon]' derivation='None' name='[none:lon:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[mean_elev]' derivation='None' name='[none:mean_elev:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[mean_elev]' derivation='Sum' name='[sum:mean_elev:qk]' pivot='key' type='quantitative' />
+      <group hidden='true' name='[Inclusions (Lat,Lon)]' name-style='unqualified' user:auto-column='include'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:lat:qk]' />
+          <groupfilter function='level-members' level='[none:lon:qk]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[min:mean_elev:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:mean_elev:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[sum:mean_elev:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='processed.csv' id='processed.csv_D2E6C197E27843339179F904F725AA5E'>
+            <properties context=''>
+              <relation connection='textscan.1feomm01akzh1p12bazf70dyx3wj' name='processed.csv' table='[processed#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='real' name='tongue_activity' ordinal='1' />
+                  <column datatype='string' name='Glacier ID' ordinal='2' />
+                  <column datatype='string' name='Country' ordinal='3' />
+                  <column datatype='integer' name='continent_code' ordinal='4' />
+                  <column datatype='real' name='lat' ordinal='5' />
+                  <column datatype='real' name='lon' ordinal='6' />
+                  <column datatype='string' name='orientation_acc' ordinal='7' />
+                  <column datatype='string' name='orientation_abl' ordinal='8' />
+                  <column datatype='real' name='source_nourish' ordinal='9' />
+                  <column datatype='real' name='mean_elev' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Elevation by Country'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed' name='federated.12wqzdt1x9aeth106jr1g1ig3m2o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12wqzdt1x9aeth106jr1g1ig3m2o'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;French territ.&quot;' value='&quot;French Guiana&quot;' />
+                <semantic-value key='&quot;Heard Island&quot;' value='&quot;Heard Island and McDonald Islands&quot;' />
+                <semantic-value key='&quot;New Zeland&quot;' value='&quot;New Zealand&quot;' />
+                <semantic-value key='&quot;USSR&quot;' value='&quot;Russia&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[mean_elev]' derivation='Avg' name='[avg:mean_elev:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[mean_elev]' derivation='Max' name='[max:mean_elev:qk]' pivot='key' type='quantitative' />
+            <column caption='Mean Elev' datatype='real' name='[mean_elev]' role='measure' type='quantitative' />
+            <column-instance column='[mean_elev]' derivation='Min' name='[min:mean_elev:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[tongue_activity]' derivation='None' name='[none:tongue_activity:ok]' pivot='key' type='ordinal' />
+            <column caption='Tongue Activity' datatype='real' name='[tongue_activity]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]' filter-group='4' included-values='in-range-or-null'>
+            <min>327.0</min>
+            <max>6978.666666666667</max>
+          </filter>
+          <filter class='quantitative' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]' filter-group='5' included-values='in-range' />
+          <filter class='quantitative' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[min:mean_elev:qk]' filter-group='6' included-values='in-range'>
+            <min>0.0</min>
+            <max>4950.0</max>
+          </filter>
+          <filter class='categorical' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]' context='true' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:ok]' filter-group='7'>
+            <groupfilter function='level-members' level='[none:tongue_activity:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]</column>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]</column>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]</column>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[min:mean_elev:qk]</column>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]' scope='rows' value='false' />
+            <format attr='title' class='0' field='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]' scope='rows' value='Mean Elevation' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]' value='28' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='10' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]' value='-90' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='line-interpolation' value='linear' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='538' />
+                <format attr='maxheight' value='538' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='line-interpolation' value='linear' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]' />
+              <color column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[:Measure Names]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Country:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'><![CDATA[Max Elevation: <[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>:&#9;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='2.5524861812591553' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='line-interpolation' value='linear' />
+                <format attr='mark-color' value='#a7acad' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk] + [federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk])</rows>
+        <cols>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]</cols>
+      </table>
+      <simple-id uuid='{956BBF78-3C89-40DD-BD9E-2BD25DB2BAEB}' />
+    </worksheet>
+    <worksheet name='Elevation vs tongue activity'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Elevation vs Tongue Activity&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed' name='federated.12wqzdt1x9aeth106jr1g1ig3m2o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12wqzdt1x9aeth106jr1g1ig3m2o'>
+            <column caption='Mean Elev' datatype='real' name='[mean_elev]' role='measure' type='quantitative' />
+            <column-instance column='[mean_elev]' derivation='None' name='[none:mean_elev:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[tongue_activity]' derivation='None' name='[none:tongue_activity:qk]' pivot='key' type='quantitative' />
+            <column caption='Tongue Activity' datatype='real' name='[tongue_activity]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:mean_elev:qk]' scope='rows' value='Mean Elevevation' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Heatmap' />
+          </pane>
+        </panes>
+        <rows>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:mean_elev:qk]</rows>
+        <cols>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:qk]</cols>
+      </table>
+      <simple-id uuid='{8D2FA28B-2B35-4A2C-BC87-C11626F2A3B7}' />
+    </worksheet>
+    <worksheet name='Latitude vs Tongue'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Latitude vs Activity of Tongue&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed' name='federated.12wqzdt1x9aeth106jr1g1ig3m2o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12wqzdt1x9aeth106jr1g1ig3m2o'>
+            <column aggregation='Avg' caption='Lat' datatype='real' name='[lat]' role='dimension' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column-instance column='[lat]' derivation='None' name='[none:lat:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[tongue_activity]' derivation='None' name='[none:tongue_activity:qk]' pivot='key' type='quantitative' />
+            <column caption='Tongue Activity' datatype='real' name='[tongue_activity]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:qk]' included-values='in-range'>
+            <min>1.0</min>
+            <max>8.0</max>
+          </filter>
+          <slices>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:lat:qk]' scope='rows' value='Latitude' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Heatmap' />
+          </pane>
+        </panes>
+        <rows>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:lat:qk]</rows>
+        <cols>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:qk]</cols>
+      </table>
+      <simple-id uuid='{C059CCB3-874E-4048-BDEE-31ADCA914D36}' />
+    </worksheet>
+    <worksheet name='Map'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Map of Known Glaciers(with elevation and activity)
+
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed' name='federated.12wqzdt1x9aeth106jr1g1ig3m2o' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.12wqzdt1x9aeth106jr1g1ig3m2o'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;French territ.&quot;' value='&quot;French Guiana&quot;' />
+                <semantic-value key='&quot;Heard Island&quot;' value='&quot;Heard Island and McDonald Islands&quot;' />
+                <semantic-value key='&quot;New Zeland&quot;' value='&quot;New Zealand&quot;' />
+                <semantic-value key='&quot;USSR&quot;' value='&quot;Russia&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[mean_elev]' derivation='Avg' name='[avg:mean_elev:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[mean_elev]' derivation='Count' name='[cnt:mean_elev:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[mean_elev]' derivation='Max' name='[max:mean_elev:qk]' pivot='key' type='quantitative' />
+            <column caption='Mean Elev' datatype='real' name='[mean_elev]' role='measure' type='quantitative' />
+            <column-instance column='[mean_elev]' derivation='Min' name='[min:mean_elev:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[tongue_activity]' derivation='None' name='[none:tongue_activity:ok]' pivot='key' type='ordinal' />
+            <column caption='Tongue Activity' datatype='real' name='[tongue_activity]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]' filter-group='4' included-values='in-range-or-null'>
+            <min>327.0</min>
+            <max>6978.666666666667</max>
+          </filter>
+          <filter class='quantitative' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]' filter-group='5' included-values='in-range' />
+          <filter class='quantitative' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[min:mean_elev:qk]' filter-group='6' included-values='in-range'>
+            <min>0.0</min>
+            <max>4950.0</max>
+          </filter>
+          <filter class='categorical' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]' context='true' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:ok]' filter-group='7'>
+            <groupfilter function='level-members' level='[none:tongue_activity:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]</column>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]</column>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]</column>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[min:mean_elev:qk]</column>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[Longitude (generated)]' field-type='quantitative' max='28719269.278626844' min='-29171695.775634538' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[Latitude (generated)]' field-type='quantitative' max='22201114.865838986' min='-18739147.347359229' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[cnt:mean_elev:qk]' value='Count of Mean Elevation'>
+              <formatted-text>
+                <run>Count of Mean Elevation</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='outdoors' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <lod column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]' />
+              <color column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[cnt:mean_elev:qk]' />
+              <geometry column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[Geometry (generated)]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Country:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Number of Glaciers:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[cnt:mean_elev:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+        </panes>
+        <rows>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[Latitude (generated)]</rows>
+        <cols>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{506F7E88-CC27-4B78-855A-B07BD45F077A}' />
+    </worksheet>
+    <worksheet name='Number of Glaciers at latitudes'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed' name='federated.12wqzdt1x9aeth106jr1g1ig3m2o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12wqzdt1x9aeth106jr1g1ig3m2o'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;French territ.&quot;' value='&quot;French Guiana&quot;' />
+                <semantic-value key='&quot;Heard Island&quot;' value='&quot;Heard Island and McDonald Islands&quot;' />
+                <semantic-value key='&quot;New Zeland&quot;' value='&quot;New Zealand&quot;' />
+                <semantic-value key='&quot;USSR&quot;' value='&quot;Russia&quot;' />
+              </semantic-values>
+            </column>
+            <column datatype='string' name='[Glacier ID]' role='dimension' type='nominal' />
+            <column-instance column='[mean_elev]' derivation='Avg' name='[avg:mean_elev:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Glacier ID]' derivation='Count' name='[cnt:Glacier ID:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Avg' caption='Lat' datatype='real' name='[lat]' role='dimension' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column-instance column='[mean_elev]' derivation='Max' name='[max:mean_elev:qk]' pivot='key' type='quantitative' />
+            <column caption='Mean Elev' datatype='real' name='[mean_elev]' role='measure' type='quantitative' />
+            <column-instance column='[mean_elev]' derivation='Min' name='[min:mean_elev:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[lat]' derivation='None' name='[none:lat:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[tongue_activity]' derivation='None' name='[none:tongue_activity:ok]' pivot='key' type='ordinal' />
+            <column caption='Tongue Activity' datatype='real' name='[tongue_activity]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]' filter-group='4' included-values='in-range-or-null'>
+            <min>327.0</min>
+            <max>6978.666666666667</max>
+          </filter>
+          <filter class='quantitative' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]' filter-group='5' included-values='in-range' />
+          <filter class='quantitative' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[min:mean_elev:qk]' filter-group='6' included-values='in-range'>
+            <min>0.0</min>
+            <max>4950.0</max>
+          </filter>
+          <filter class='categorical' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]' context='true' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:ok]' filter-group='7'>
+            <groupfilter function='level-members' level='[none:tongue_activity:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]</column>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]</column>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]</column>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[min:mean_elev:qk]</column>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[cnt:Glacier ID:qk]' scope='cols' value='Number of Glaciers' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[cnt:Glacier ID:qk]' palette='blue_teal_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[cnt:Glacier ID:qk]' value='Number of Glaciers&#10;'>
+              <formatted-text>
+                <run>Number of Glaciers&#10;</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <color column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[cnt:Glacier ID:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:lat:qk]</rows>
+        <cols>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[cnt:Glacier ID:qk]</cols>
+      </table>
+      <simple-id uuid='{BA68D01C-1F70-4C31-A130-D4EE7A5A4382}' />
+    </worksheet>
+    <worksheet name='Number of glacier per tongue activity'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of Glaciers at Each Tongue Activity</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed' name='federated.12wqzdt1x9aeth106jr1g1ig3m2o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12wqzdt1x9aeth106jr1g1ig3m2o'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;French territ.&quot;' value='&quot;French Guiana&quot;' />
+                <semantic-value key='&quot;Heard Island&quot;' value='&quot;Heard Island and McDonald Islands&quot;' />
+                <semantic-value key='&quot;New Zeland&quot;' value='&quot;New Zealand&quot;' />
+                <semantic-value key='&quot;USSR&quot;' value='&quot;Russia&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[mean_elev]' derivation='Avg' name='[avg:mean_elev:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[mean_elev]' derivation='Max' name='[max:mean_elev:qk]' pivot='key' type='quantitative' />
+            <column caption='Mean Elev' datatype='real' name='[mean_elev]' role='measure' type='quantitative' />
+            <column-instance column='[mean_elev]' derivation='Min' name='[min:mean_elev:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[tongue_activity]' derivation='None' name='[none:tongue_activity:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[tongue_activity]' derivation='Sum' name='[sum:tongue_activity:qk]' pivot='key' type='quantitative' />
+            <column caption='Tongue Activity' datatype='real' name='[tongue_activity]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]' filter-group='4' included-values='in-range-or-null'>
+            <min>327.0</min>
+            <max>6978.666666666667</max>
+          </filter>
+          <filter class='quantitative' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]' filter-group='5' included-values='in-range' />
+          <filter class='quantitative' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[min:mean_elev:qk]' filter-group='6' included-values='in-range'>
+            <min>0.0</min>
+            <max>4950.0</max>
+          </filter>
+          <filter class='categorical' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]' context='true' filter-group='3'>
+            <groupfilter function='level-members' level='[none:Country:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:ok]' filter-group='7'>
+            <groupfilter function='level-members' level='[none:tongue_activity:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]</column>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]</column>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]</column>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[min:mean_elev:qk]</column>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[sum:tongue_activity:qk]' scope='rows' value='Number of Gaciers' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[sum:tongue_activity:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#f1f1f1</color>
+                <color>#dedee5</color>
+                <color>#cbcbda</color>
+                <color>#babace</color>
+                <color>#a9a9c3</color>
+                <color>#9999b8</color>
+                <color>#8a8aac</color>
+                <color>#7b7ba1</color>
+                <color>#6e6e95</color>
+                <color>#61618a</color>
+                <color>#55557f</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[sum:tongue_activity:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[sum:tongue_activity:qk]</rows>
+        <cols>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:ok]</cols>
+      </table>
+      <simple-id uuid='{66DC528A-EA99-4486-90AA-02F78331FB94}' />
+    </worksheet>
+    <worksheet name='Receding Glaciers per Country'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Receding Glaciers per Country</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='processed' name='federated.12wqzdt1x9aeth106jr1g1ig3m2o' />
+          </datasources>
+          <datasource-dependencies datasource='federated.12wqzdt1x9aeth106jr1g1ig3m2o'>
+            <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+              <semantic-values semantic-role='[Country].[Name]'>
+                <semantic-value key='&quot;French territ.&quot;' value='&quot;French Guiana&quot;' />
+                <semantic-value key='&quot;Heard Island&quot;' value='&quot;Heard Island and McDonald Islands&quot;' />
+                <semantic-value key='&quot;New Zeland&quot;' value='&quot;New Zealand&quot;' />
+                <semantic-value key='&quot;USSR&quot;' value='&quot;Russia&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[tongue_activity]' derivation='Count' name='[cnt:tongue_activity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[tongue_activity]' derivation='None' name='[none:tongue_activity:qk]' pivot='key' type='quantitative' />
+            <column caption='Tongue Activity' datatype='real' name='[tongue_activity]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:qk]' included-values='in-range'>
+            <min>1.0</min>
+            <max>2.0</max>
+          </filter>
+          <slices>
+            <column>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[cnt:tongue_activity:qk]' scope='cols' value='Number of Glaciers' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]</rows>
+        <cols>[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[cnt:tongue_activity:qk]</cols>
+      </table>
+      <simple-id uuid='{2798DC1C-A9E1-4CB4-9D7D-932D2B056547}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard-Elevation'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='processed' name='federated.12wqzdt1x9aeth106jr1g1ig3m2o' />
+      </datasources>
+      <datasource-dependencies datasource='federated.12wqzdt1x9aeth106jr1g1ig3m2o'>
+        <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+          <semantic-values semantic-role='[Country].[Name]'>
+            <semantic-value key='&quot;French territ.&quot;' value='&quot;French Guiana&quot;' />
+            <semantic-value key='&quot;Heard Island&quot;' value='&quot;Heard Island and McDonald Islands&quot;' />
+            <semantic-value key='&quot;New Zeland&quot;' value='&quot;New Zealand&quot;' />
+            <semantic-value key='&quot;USSR&quot;' value='&quot;Russia&quot;' />
+          </semantic-values>
+        </column>
+        <column-instance column='[mean_elev]' derivation='Avg' name='[avg:mean_elev:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[mean_elev]' derivation='Max' name='[max:mean_elev:qk]' pivot='key' type='quantitative' />
+        <column caption='Mean Elev' datatype='real' name='[mean_elev]' role='measure' type='quantitative' />
+        <column-instance column='[mean_elev]' derivation='Min' name='[min:mean_elev:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+        <column-instance column='[tongue_activity]' derivation='None' name='[none:tongue_activity:ok]' pivot='key' type='ordinal' />
+        <column caption='Tongue Activity' datatype='real' name='[tongue_activity]' role='measure' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='4' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='7' param='horz' w='98400' x='800' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98000' id='5' w='82400' x='800' y='1000'>
+              <zone h='38375' id='3' name='Elevation by Country' w='82400' x='800' y='60625'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='59625' id='15' name='Receding Glaciers per Country' w='41200' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='59625' id='25' name='Elevation vs tongue activity' w='41200' x='42000' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' w='16000' x='83200' y='1000'>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='10500' id='13' name='Elevation by Country' pane-specification-id='1' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[:Measure Names]' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='10125' id='16' name='Receding Glaciers per Country' pane-specification-id='0' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:qk]' w='16000' x='83200' y='11500'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9625' id='8' name='Elevation by Country' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]' show-domain='false' show-null-ctrls='false' w='16000' x='83200' y='21625'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9625' id='9' name='Elevation by Country' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[min:mean_elev:qk]' show-domain='false' show-null-ctrls='false' w='16000' x='83200' y='31250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9625' id='10' name='Elevation by Country' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]' show-domain='false' show-null-ctrls='false' w='16000' x='83200' y='40875'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='24250' id='11' name='Elevation by Country' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:ok]' w='16000' x='83200' y='50500'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='24250' id='12' name='Elevation by Country' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]' w='16000' x='83200' y='74750'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='35' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='34' param='vert' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='59625' id='15' is-fixed='true' name='Receding Glaciers per Country' w='41200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='10125' id='16' name='Receding Glaciers per Country' pane-specification-id='0' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:qk]' w='16000' x='83200' y='11500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='59625' id='25' is-fixed='true' name='Elevation vs tongue activity' w='41200' x='42000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9625' id='8' name='Elevation by Country' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]' show-domain='false' show-null-ctrls='false' w='16000' x='83200' y='21625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9625' id='9' name='Elevation by Country' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[min:mean_elev:qk]' show-domain='false' show-null-ctrls='false' w='16000' x='83200' y='31250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9625' id='10' name='Elevation by Country' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]' show-domain='false' show-null-ctrls='false' w='16000' x='83200' y='40875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='24250' id='11' mode='checkdropdown' name='Elevation by Country' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:ok]' w='16000' x='83200' y='50500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='24250' id='12' mode='checkdropdown' name='Elevation by Country' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]' w='16000' x='83200' y='74750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='38375' id='3' is-fixed='true' name='Elevation by Country' w='82400' x='800' y='60625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='10500' id='13' name='Elevation by Country' pane-specification-id='1' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[:Measure Names]' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{EE42E979-31B4-42D5-A111-4435FB85504D}' />
+    </dashboard>
+    <dashboard name='Dashboard-Latitude'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='processed' name='federated.12wqzdt1x9aeth106jr1g1ig3m2o' />
+      </datasources>
+      <datasource-dependencies datasource='federated.12wqzdt1x9aeth106jr1g1ig3m2o'>
+        <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal'>
+          <semantic-values semantic-role='[Country].[Name]'>
+            <semantic-value key='&quot;French territ.&quot;' value='&quot;French Guiana&quot;' />
+            <semantic-value key='&quot;Heard Island&quot;' value='&quot;Heard Island and McDonald Islands&quot;' />
+            <semantic-value key='&quot;New Zeland&quot;' value='&quot;New Zealand&quot;' />
+            <semantic-value key='&quot;USSR&quot;' value='&quot;Russia&quot;' />
+          </semantic-values>
+        </column>
+        <column-instance column='[mean_elev]' derivation='Avg' name='[avg:mean_elev:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[mean_elev]' derivation='Max' name='[max:mean_elev:qk]' pivot='key' type='quantitative' />
+        <column caption='Mean Elev' datatype='real' name='[mean_elev]' role='measure' type='quantitative' />
+        <column-instance column='[mean_elev]' derivation='Min' name='[min:mean_elev:qk]' pivot='key' type='quantitative' />
+        <column-instance column='[Country]' derivation='None' name='[none:Country:nk]' pivot='key' type='nominal' />
+        <column-instance column='[tongue_activity]' derivation='None' name='[none:tongue_activity:ok]' pivot='key' type='ordinal' />
+        <column caption='Tongue Activity' datatype='real' name='[tongue_activity]' role='measure' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='8' param='horz' w='98400' x='800' y='1000'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='98000' id='6' w='82400' x='800' y='1000'>
+            <zone h='49000' id='5' name='Map' w='41200' x='42000' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='49000' id='17' name='Latitude vs Tongue' w='41200' x='800' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='49000' id='18' name='Number of Glaciers at latitudes' w='82400' x='800' y='50000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' fixed-size='160' h='98000' id='7' is-fixed='true' param='vert' w='16000' x='83200' y='1000'>
+            <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='10125' id='14' name='Map' pane-specification-id='0' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[cnt:mean_elev:qk]' w='16000' x='83200' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='10125' id='19' name='Number of Glaciers at latitudes' pane-specification-id='2' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[cnt:Glacier ID:qk]' w='16000' x='83200' y='11125'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9625' id='9' name='Map' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]' show-domain='false' show-null-ctrls='false' w='16000' x='83200' y='21250'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9625' id='10' name='Map' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[min:mean_elev:qk]' show-domain='false' show-null-ctrls='false' w='16000' x='83200' y='30875'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9625' id='11' name='Map' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]' show-domain='false' show-null-ctrls='false' w='16000' x='83200' y='40500'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='24437' id='12' name='Map' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:ok]' w='16000' x='83200' y='50125'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='24438' id='13' name='Map' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]' w='16000' x='83200' y='74562'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='35' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='98000' id='34' param='vert' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='49000' id='17' is-fixed='true' name='Latitude vs Tongue' w='41200' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9625' id='9' name='Map' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]' show-domain='false' show-null-ctrls='false' w='16000' x='83200' y='21250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9625' id='10' name='Map' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[min:mean_elev:qk]' show-domain='false' show-null-ctrls='false' w='16000' x='83200' y='30875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='9625' id='11' name='Map' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]' show-domain='false' show-null-ctrls='false' w='16000' x='83200' y='40500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='24437' id='12' mode='checkdropdown' name='Map' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:ok]' w='16000' x='83200' y='50125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='filter' _.fcp.SetMembershipControl.true...type-v2='filter' h='24438' id='13' mode='checkdropdown' name='Map' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]' w='16000' x='83200' y='74562'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='5' is-fixed='true' name='Map' w='41200' x='42000' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='10125' id='14' name='Map' pane-specification-id='0' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[cnt:mean_elev:qk]' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='18' is-fixed='true' name='Number of Glaciers at latitudes' w='82400' x='800' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='10125' id='19' name='Number of Glaciers at latitudes' pane-specification-id='2' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[cnt:Glacier ID:qk]' w='16000' x='83200' y='11125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{7D1E5263-C707-44AE-8E75-4F7E31B013BA}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[cnt:mean_elev:qk]' type='color' />
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[min:mean_elev:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:ok]' type='filter' />
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{BFE9CA5D-F9B2-4431-98A7-CBD00F1F87B0}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Elevation by Country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[:Measure Names]' type='color' />
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[min:mean_elev:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:ok]' type='filter' />
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{403B6A95-EEEA-4065-95AD-D2A24786174D}' />
+    </window>
+    <window class='worksheet' name='Number of glacier per tongue activity'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[min:mean_elev:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:ok]' type='filter' />
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6570404D-878F-42CC-9F8A-7CEDD2FC65A7}' />
+    </window>
+    <window class='worksheet' name='Number of Glaciers at latitudes'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[cnt:Glacier ID:qk]' type='color' />
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[min:mean_elev:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[max:mean_elev:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[avg:mean_elev:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:Country:nk]' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{65B34DBD-53F9-4830-8247-576677A743A1}' />
+    </window>
+    <window class='worksheet' name='Receding Glaciers per Country'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{A14292E1-66E3-43C2-852B-D5EB7CE3E6F5}' />
+    </window>
+    <window class='worksheet' name='Elevation vs tongue activity'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{27549BC0-93D4-4C9B-94A4-1AF6412EC1B8}' />
+    </window>
+    <window class='worksheet' name='Latitude vs Tongue'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.12wqzdt1x9aeth106jr1g1ig3m2o].[none:tongue_activity:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{375C8C61-AD9B-4D95-ABB5-9228CDE686BC}' />
+    </window>
+    <window class='dashboard' name='Dashboard-Latitude'>
+      <viewpoints>
+        <viewpoint name='Latitude vs Tongue'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Map'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='1' />
+        </viewpoint>
+        <viewpoint name='Number of Glaciers at latitudes'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{D14F58C6-AAEB-4E59-9435-3AA113EE82D2}' />
+    </window>
+    <window class='dashboard' name='Dashboard-Elevation'>
+      <viewpoints>
+        <viewpoint name='Elevation by Country'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Elevation vs tongue activity'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Receding Glaciers per Country' />
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{BD70F377-0ECB-4F80-A1AE-81A43FB51747}' />
+    </window>
+  </windows>
+</workbook>
