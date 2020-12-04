@@ -3,6 +3,9 @@
 
 - Your title can change over time.
 
+## Link to presentation:
+https://youtu.be/FmbtKWRRxw4 
+
 ## Milestones
 
 Details for Milestone are available on Canvas (left sidebar, Course Project) or [here](https://firas.moosvi.com/courses/data301/project/milestone01.html).
